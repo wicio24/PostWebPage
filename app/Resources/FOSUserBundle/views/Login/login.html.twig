@@ -1,0 +1,18 @@
+{% extends "@FOSUser/layout.html.twig" %}
+
+{% block fos_user_content %}
+
+
+
+
+
+                    {#<h2><a href="{{ post.id }}">{{ post.title }}</a></h2>#}
+                    {#<p>{{ post.text }}</p>#}
+                    {#<h6>by {{ post.user }}</h6>#}
+                    {#<span class="cd-date">{% if post.date %}{{ post.date|date('d-m-Y') }}{% endif %}</span>#}
+                {##}
+                    {{ include('@FOSUser/Security/login_content.html.twig') }}
+
+
+
+{% endblock fos_user_content %}
